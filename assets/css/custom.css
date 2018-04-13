@@ -1,0 +1,558 @@
+/*
+*                      <\_
+*
+*                  Thomas Bnt 
+*             Https://www.thomasbnt.fr/
+*
+*
+*/
+
+/* IMPORT CSS */
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+/* --- IMPORTANT --- */
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+.card {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+body {
+    animation: fadein 1.6s;
+    -moz-animation: fadein 1.6s; 
+    -webkit-animation: fadein 1.6s; 
+    -o-animation: fadein 1.6s; 
+}
+.background {
+    display: table;
+    width: 100%;
+    height: 100%; 
+    min-height: 100%;
+    box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
+    background-image: url('https://source.unsplash.com/collection/520359/random'); /*https://source.unsplash.com/collection/520359/random */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    animation: fadein 1.8s;
+    -moz-animation: fadein 1.8s; 
+    -webkit-animation: fadein 1.8s; 
+    -o-animation: fadein 1.8s; 
+}
+@keyframes fadein {
+    from {
+        opacity : 0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+@-moz-keyframes fadein { 
+    from {
+        opacity : 0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+@-webkit-keyframes fadein { 
+    from {
+        opacity : 0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+@-o-keyframes fadein { 
+    from {
+        opacity : 0;
+    }
+    to {
+        opacity : 1;
+    }
+}
+.gate-footer {
+    position: fixed;
+    bottom: 0;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,.5);
+}
+.text-shadow {
+    text-shadow: 0 0.05rem 0.1rem rgba(0,0,0,.5);
+}
+.card-shadow {
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
+}
+.gate-footer > p > a {
+    color: white !important;
+}
+.container {
+    padding-top: 10%;
+}
+.aligned-to-quotes {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+.horloge {
+    text-align: center;
+    font-size: xx-large;
+}
+.blockquote-guillemet {
+    opacity: .45;
+    font-size: 25px;
+    position: absolute;
+    right: 20px;
+    top: 4px;
+}
+/* --- END OF IMPORTANT --- */
+/* --- CUSTOMS CLASS --- */
+.rounded {
+    border-radius: .25rem;
+}
+.cgu-color {
+    background-color: #212121 !important;
+}
+.ssl-color-text {
+    color: green !important;
+}
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace !important;
+}
+.pointer {
+    cursor: pointer;
+}
+.margin-to-2 {
+    margin: 2px;
+}
+/* --- END OF CUSTOMS CLASS --- */
+/* --- COLORS CLASSES --- */
+/* Thomas Bnt */
+.color-thomasbnt {
+    color: #fff;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #690014;
+    border: .05rem solid #690014;
+    transition-duration: 0.5s;
+}
+.color-thomasbnt:hover,
+.color-thomasbnt:focus {
+    color: #fff;
+    text-shadow: none; /* Prevent inheritance from `body` */
+    background-color: #690014;
+    border: .05rem solid #690014;
+    transition-duration: 0.5s;
+}
+.color-thomasbnt-text {
+    color: #690014 !important;
+    background-color: transparent;
+    border-color: #690014 !important;
+}
+.color-thomasbnt-border {
+    border-color: #690014 !important;
+}
+/* Gate */
+.color-gate {
+    color: #0b716b !important;
+    background-color: transparent;
+    border-color: #0b716b !important;
+    transition: 0.4s;
+}
+.color-gate:focus,
+.color-gate:hover {
+    background-color: #0b716b !important;
+    color: #fefcff !important;
+    border-color: #0b716b;
+}
+.color-gate-text {
+    color: #0b716b !important;
+    background-color: transparent;
+    border-color: #0b716b !important;
+}
+.color-gate-border {
+    border-color: #0b716b !important;
+}
+/* Twitter */
+.twitter-color {
+    color: #1da1f2 !important;
+    background-color: transparent;
+    border-color: #1da1f2 !important;
+    transition: 0.4s;
+}
+.twitter-color:focus,
+.twitter-color:hover {
+    background-color: #1da1f2 !important;
+    color: #fefcff !important;
+    border-color: #1da1f2;
+}
+.twitter-color-text {
+    color: #1da1f2 !important;
+    background-color: transparent;
+    border-color: #1da1f2 !important;
+}
+.twitter-color-border {
+    border-color: #1da1f2 !important;
+}
+/* Spotify */
+.spotify-color {
+    color: #23CF5F !important;
+    background-color: transparent;
+    border-color: #23CF5F !important;
+    transition: 0.4s;
+}
+.spotify-color:focus,
+.spotify-color:hover {
+    background-color: #23CF5F !important;
+    color: #fefcff !important;
+    border-color: #23CF5F;
+}
+.spotify-color-text {
+    color: #23CF5F !important;
+    background-color: transparent;
+    border-color: #23CF5F !important;
+}
+.spotify-color-border {
+    border-color: #23CF5F !important;
+}
+/* Facebook */
+.facebook-color {
+    color: #4267B2 !important;
+    background-color: transparent;
+    border-color: #4267B2 !important;
+    transition: 0.4s;
+}
+.facebook-color:focus,
+.facebook-color:hover {
+    background-color: #4267B2 !important;
+    color: #fefcff !important;
+    border-color: #4267B2;
+}
+.facebook-color-text {
+    color: #4267B2 !important;
+    background-color: transparent;
+    border-color: #4267B2 !important;
+}
+.facebook-color-border {
+    border-color: #4267B2 !important;
+}
+/* Youtube */
+.youtube-color {
+    color: #FF0000 !important;
+    background-color: transparent;
+    border-color: #FF0000 !important;
+    transition: 0.4s;
+}
+.youtube-color:focus,
+.youtube-color:hover {
+    background-color: #FF0000 !important;
+    color: #fefcff !important;
+    border-color: #FF0000;
+}
+.youtube-color-text {
+    color: #FF0000 !important;
+    background-color: transparent;
+    border-color: #FF0000 !important;
+}
+.youtube-color-border {
+    border-color: #FF0000 !important;
+}
+/* Unsplash-color */
+.unsplash-color {
+    color: #fefcff !important;
+    background-color: transparent;
+    border-color: #fefcff !important;
+    transition: 0.4s;
+}
+.unsplash-color:focus,
+.unsplash-color:hover {
+    background-color: #fefcff !important;
+    color: #0C0C0B !important;
+    border-color: #fefcff !important;
+}
+.unsplash-color-text {
+    color: #fefcff !important;
+    background-color: transparent;
+    border-color: #fefcff !important;
+}
+.unsplash-color-border {
+    border-color: #fefcff !important;
+}
+/* Stackoverflow-color */
+.stackoverflow-color {
+    color: #f08032 !important;
+    background-color: transparent;
+    border-color: #f08032 !important;
+    transition: 0.4s;
+}
+.stackoverflow-color:focus,
+.stackoverflow-color:hover {
+    background-color: #f08032 !important;
+    color: #fefcff !important;
+    border-color: #f08032;
+}
+.stackoverflow-color-text {
+    color: #f08032 !important;
+    background-color: transparent;
+    border-color: #f08032 !important;
+}
+.stackoverflow-color-border {
+    border-color: #f08032 !important;
+}
+/* wikipedia-color */
+.wikipedia-color {
+    color: #222222 !important;
+    background-color: transparent;
+    border-color: #222222 !important;
+    transition: 0.4s;
+}
+.wikipedia-color:focus,
+.wikipedia-color:hover {
+    background-color: #222222 !important;
+    color: #E5E5E5 !important;
+    border-color: #222222;
+}
+.wikipedia-color-text {
+    color: #222222 !important;
+    background-color: transparent;
+    border-color: #222222 !important;
+}
+.wikipedia-color-border {
+    border-color: #222222 !important;
+}
+/* devdocs-color */
+.devdocs-color {
+    color: #3377c0 !important;
+    background-color: transparent;
+    border-color: #3377c0 !important;
+    transition: 0.4s;
+}
+.devdocs-color:focus,
+.devdocs-color:hover {
+    background-color: #3377c0 !important;
+    color: #fefcff !important;
+    border-color: #3377c0;
+}
+.devdocs-color-text {
+    color: #3377c0 !important;
+    background-color: transparent;
+    border-color: #3377c0 !important;
+}
+.devdocs-color-border {
+    border-color: #3377c0 !important;
+}
+
+/* Mr_Robot */
+.mrrobot-color {
+    color: #4C2562 !important;
+    background-color: transparent;
+    border-color: #4C2562 !important;
+    transition: 0.4s;
+}
+.mrrobot-color:focus,
+.mrrobot-color:hover {
+    background-color: #4C2562 !important;
+    color: #fefcff !important;
+    border-color: #4C2562 !important;
+}
+.mrrobot-color-text {
+    color: #4C2562 !important;
+    background-color: transparent;
+    border-color: #4C2562 !important;
+}
+.mrrobot-color-border {
+    border-color: #4C2562 !important;
+}
+/* default-color */
+.default-color {
+    color: #32464a !important;
+    background-color: transparent;
+    border-color: #32464a !important;
+    transition: 0.4s;
+}
+.default-color:focus,
+.default-color:hover {
+    background-color: #32464a !important;
+    color: #fefcff !important;
+    border-color: #32464a !important;
+}
+.default-color-text {
+    color: #32464a !important;
+    background-color: transparent;
+    border-color: #32464a !important;
+}
+.default-color-border {
+    border-color: #32464a !important;
+}
+/* github-color */
+.github-color {
+    color: #0C0C0B !important;
+    background-color: transparent;
+    border-color: #0C0C0B !important;
+    transition: 0.4s;
+}
+.github-color:focus,
+.github-color:hover {
+    background-color: #0C0C0B !important;
+    color: #fefcff !important;
+    border-color: #0C0C0B !important;
+}
+.github-color-text {
+    color: #0C0C0B !important;
+    background-color: transparent;
+    border-color: #0C0C0B !important;
+}
+.github-color-border {
+    border-color: #0C0C0B !important;
+}
+/* reddit-color */
+.reddit-color {
+    color: #FF4500 !important;
+    background-color: transparent;
+    border-color: #FF4500 !important;
+    transition: 0.4s;
+}
+.reddit-color:focus,
+.reddit-color:hover {
+    background-color: #FF4500 !important;
+    color: #fefcff !important;
+    border-color: #FF4500 !important;
+}
+.reddit-color-text {
+    color: #FF4500 !important;
+    background-color: transparent;
+    border-color: #FF4500 !important;
+}
+.reddit-color-border {
+    border-color: #FF4500 !important;
+}
+/* mastodon-color */
+.mastodon-color {
+    color: #2588d0 !important;
+    background-color: transparent;
+    border-color: #2588d0 !important;
+    transition: 0.4s;
+}
+.mastodon-color:focus,
+.mastodon-color:hover {
+    background-color: #2588d0 !important;
+    color: #fefcff !important;
+    border-color: #2588d0 !important;
+}
+.mastodon-color-text {
+    color: #2588d0 !important;
+    background-color: transparent;
+    border-color: #2588d0 !important;
+}
+.mastodon-color-border {
+    border-color: #2588d0 !important;
+}
+/* discord-color */
+.discord-color {
+    color: #7289DA !important;
+    background-color: transparent;
+    border-color: #7289DA !important;
+    transition: 0.4s;
+}
+.discord-color:focus,
+.discord-color:hover {
+    background-color: #7289DA !important;
+    color: #fefcff !important;
+    border-color: #7289DA !important;
+}
+.discord-color-text {
+    color: #7289DA !important;
+    background-color: transparent;
+    border-color: #7289DA !important;
+}
+.discord-color-border {
+    border-color: #7289DA !important;
+}
+/* mail-color */
+.mail-color {
+    color: #45454D !important;
+    background-color: transparent;
+    border-color: #45454D !important;
+    transition: 0.4s;
+}
+.mail-color:focus,
+.mail-color:hover {
+    background-color: #45454D !important;
+    color: #fefcff !important;
+    border-color: #45454D !important;
+}
+.mail-color-text {
+    color: #45454D !important;
+    background-color: transparent;
+    border-color: #45454D !important;
+}
+.mail-color-border {
+    border-color: #45454D !important;
+}
+/* soundcloud-color */
+.soundcloud-color {
+    color: #ff5500 !important;
+    background-color: transparent;
+    border-color: #ff5500 !important;
+    transition: 0.4s;
+}
+.soundcloud-color:focus,
+.soundcloud-color:hover {
+    background-color: #ff5500 !important;
+    color: #fefcff !important;
+    border-color: #ff5500 !important;
+}
+.soundcloud-color-text {
+    color: #ff5500 !important;
+    background-color: transparent;
+    border-color: #ff5500 !important;
+}
+.soundcloud-color-border {
+    border-color: #ff5500 !important;
+}
+/* lastfm-color */
+.lastfm-color {
+    color: #CB0000 !important;
+    background-color: transparent;
+    border-color: #CB0000 !important;
+    transition: 0.4s;
+}
+.lastfm-color:focus,
+.lastfm-color:hover {
+    background-color: #CB0000 !important;
+    color: #fefcff !important;
+    border-color: #CB0000 !important;
+}
+.lastfm-color-text {
+    color: #CB0000 !important;
+    background-color: transparent;
+    border-color: #CB0000 !important;
+}
+.lastfm-color-border {
+    border-color: #CB0000 !important;
+}
+/* patreon-color */
+.patreon-color {
+    color: #F96854 !important;
+    background-color: transparent;
+    border-color: #F96854 !important;
+    transition: 0.4s;
+}
+.patreon-color:focus,
+.patreon-color:hover {
+    background-color: #F96854 !important;
+    color: #fefcff !important;
+    border-color: #F96854 !important;
+}
+.patreon-color-text {
+    color: #F96854 !important;
+    background-color: transparent;
+    border-color: #F96854 !important;
+}
+.patreon-color-border {
+    border-color: #F96854 !important;
+}
+/* --- END OF COLORS CLASSES --- */
+

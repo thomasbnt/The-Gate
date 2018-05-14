@@ -1,12 +1,12 @@
 <!DOCTYPE HTML>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>The Gate</title>
-    <meta name="description" content="Une simple page qui donne accès plus rapidement à des contenus pour développer & rechercher sans perte de temps.">
-    <meta name="Keywords" content="thomasbnt,outil,developper,dev,french,francais,gate,portail">
+    <meta name="description" content="A simple page that gives you faster access to content to develop & search without wasting time.">
+    <meta name="Keywords" content="thomasbnt,outil,developper,dev,french,francais,gate,portail,vie,privée,open,source,duckduckgo">
     <meta name="robots" content="index, follow">
     <meta name="googlebot" content="index, follow">
     <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
@@ -14,13 +14,13 @@
     <meta property="og:title" content="The Gate"/>
     <meta property="og:type" content="website"/>
     <meta property="og:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png"/>
-    <meta property="og:description" content="Une simple page qui donne accès plus rapidement à des contenus pour développer & rechercher sans perte de temps."/>
+    <meta property="og:description" content="A simple page that gives you faster access to content to develop & search without wasting time."/>
     <!-- Twitter Card -->
     <meta name="twitter:url" content="https://gate.thomasbnt.fr/">
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:site" content="@hyprimort" />
     <meta name="twitter:title" content="The Gate" />
-    <meta name="twitter:description" content="Une simple page qui donne accès plus rapidement à des contenus pour développer & rechercher sans perte de temps." />
+    <meta name="twitter:description" content="A simple page that gives you faster access to content to develop & search without wasting time." />
     <meta name="twitter:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png" />
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
@@ -35,7 +35,6 @@
     <meta name="msapplication-TileImage" content="assets/img/favicon.png">
     <meta name="msapplication-TileColor" content="#0b716b">
     <!-- End colors and to homescreen -->
-
     <!-- Bootstrap Core-->
     <link type="text/css" rel="stylesheet" href="assets/css/bootstrap.min.css"  media="screen,projection"/>
     <!-- Fork Awesome V1 -->
@@ -43,19 +42,18 @@
     <!-- Stylesheep custom -->
     <link async type="text/css" rel="stylesheet" href="assets/css/custom.css">
 </head>
-<!-- Random Quotes -->
-<?php
-$json = file_get_contents('quotes.json'); // Récupère les informations du JSON
-$quotes = json_decode($json,true); // Le décode
-console.log($quotes[quotes]);
-?>
+  <?php
+  $json = file_get_contents('quotes.json');
+  $quotes = json_decode($json,true);
+  console.log($quotes[quotes]);
+  ?>
 <body onLoad="Enter()">
     <div class="background d-block d-sm-none">
         <div class="container">
             <div class="row">
                 <div class="col-md-8 aligned-to-quotes">
                     <form action="https://duckduckgo.com/?q=" method="GET">
-                        <input type="search" class="form-control card-shadow" placeholder="Rechercher avec DuckDuckGo" name="q" autofocus autocomplete="off">
+                        <input type="search" class="form-control card-shadow" placeholder="Search with DuckDuckGo" name="q" autofocus autocomplete="on">
                     </form>
                 </div>
                 <div class="col-lg-4 col-md-4 col-sm-0">
@@ -71,8 +69,7 @@ console.log($quotes[quotes]);
                 </div>
             </div>
             <div class="gate-footer">
-                <p>Background depuis <a target="_blank" href="https://unsplash.com/collections/520359/paysages-background">Unsplash</a>
-                    - <a class="pointer" data-toggle="modal" data-target="#Info">Infos.</a>
+                <p>Background from <a target="_blank" href="https://unsplash.com/collections/520359/paysages-background">Unsplash</a>  - <a class="pointer" data-toggle="modal" data-target="#Info">Infos.</a>
                 </p>
             </div>
         </div>
@@ -82,24 +79,23 @@ console.log($quotes[quotes]);
             <div class="row">
                 <div class="col-md-8 aligned-to-quotes">
                     <form action="https://duckduckgo.com/?q=" method="GET">
-                        <input type="search" class="form-control card-shadow" id="BarreDeRecherche" placeholder="Rechercher avec DuckDuckGo ou les réseaux ci dessous" name="q" autofocus autocomplete="off">
+                        <input type="search" class="form-control card-shadow" id="BarreDeRecherche" placeholder="Search with DuckDuckGo or Social networks below" name="q" autofocus autocomplete="on">
                     </form>
                     <div class="row">
                         <div class="col-md-12 aligned-to-quotes text-center text-shadow">
-                            <a class="btn btn-lg reddit-color margin-to-2 card-shadow pointer" onclick="boutonReddit()"><i class="fa fa-reddit"></i></a>
-                            <a class="btn btn-lg twitter-color margin-to-2 card-shadow pointer" onclick="boutonTwitter()" ><i class="fa fa-twitter"></i></a>
-                            <a class="btn btn-lg youtube-color margin-to-2 card-shadow pointer" onclick="boutonYoutube()"><i class="fa fa-youtube-play"></i></a>
-                            <a class="btn btn-lg unsplash-color margin-to-2 card-shadow pointer" onclick="boutonUnsplash()"><i class="fa fa-camera"></i></a>
-                            <a class="btn btn-lg wikipedia-color margin-to-2 card-shadow pointer"onclick="boutonWikipedia()"><i class="fa fa-wikipedia-w"></i></a>
-                        
-                            <a class="btn btn-lg soundcloud-color margin-to-2 card-shadow pointer" onclick="boutonSoundcloud()"><i class="fa fa-soundcloud"></i></a>
-                            <a class="btn btn-lg lastfm-color margin-to-2 card-shadow pointer" onclick="boutonLastfm()"><i class="fa fa-lastfm"></i></a>
-                            <a class="btn btn-lg spotify-color margin-to-2 card-shadow pointer" onclick="boutonSpotify()"><i class="fa fa-spotify"></i></a>
+                            <a class="btn btn-lg reddit-color margin-to-2 card-shadow pointer" onclick="boutonReddit()" title="Reddit"><i class="fa fa-reddit"></i></a>
+                            <a class="btn btn-lg twitter-color margin-to-2 card-shadow pointer" onclick="boutonTwitter()" title="Twitter" ><i class="fa fa-twitter"></i></a>
+                            <a class="btn btn-lg youtube-color margin-to-2 card-shadow pointer" onclick="boutonYoutube()" title="YouTube"><i class="fa fa-youtube-play"></i></a>
+                            <a class="btn btn-lg unsplash-color margin-to-2 card-shadow pointer" onclick="boutonUnsplash()" title="Unsplash"><i class="fa fa-camera"></i></a>
+                            <a class="btn btn-lg wikipedia-color margin-to-2 card-shadow pointer"onclick="boutonWikipedia()" title="Wikipedia"><i class="fa fa-wikipedia-w"></i></a>
 
-                            <a class="btn btn-lg devdocs-color margin-to-2 card-shadow pointer"onclick="boutonDevdocs()"><i class="fa fa-code"></i></a>
-                            <a class="btn btn-lg stackoverflow-color margin-to-2 card-shadow pointer"onclick="boutonStackoverflow()"><i class="fa fa-stack-overflow"></i></a>
-                            <a class="btn btn-lg github-color margin-to-2 card-shadow pointer" onclick="boutonGithub()"><i class="fa fa-github"></i></a>
+                            <a class="btn btn-lg soundcloud-color margin-to-2 card-shadow pointer" onclick="boutonSoundcloud()" title="SoundCloud"><i class="fa fa-soundcloud"></i></a>
+                            <a class="btn btn-lg lastfm-color margin-to-2 card-shadow pointer" onclick="boutonLastfm()" title="LastFM"><i class="fa fa-lastfm"></i></a>
+                            <a class="btn btn-lg spotify-color margin-to-2 card-shadow pointer" onclick="boutonSpotify()" title="Spotify"><i class="fa fa-spotify"></i></a>
 
+                            <a class="btn btn-lg devdocs-color margin-to-2 card-shadow pointer"onclick="boutonDevdocs()" title="DevDocs"><i class="fa fa-code"></i></a>
+                            <a class="btn btn-lg stackoverflow-color margin-to-2 card-shadow pointer"onclick="boutonStackoverflow()" title="StackOverflow"><i class="fa fa-stack-overflow"></i></a>
+                            <a class="btn btn-lg github-color margin-to-2 card-shadow pointer" onclick="boutonGithub()" title="GitHub"><i class="fa fa-github"></i></a>
                         </div>
                     </div>
                 </div>
@@ -107,7 +103,7 @@ console.log($quotes[quotes]);
                     <div class="card d-none d-md-block">
                         <div class="card-body card-shadow horloge">
                             <span id="date_heure"></span>
-                            <noscript>L'horloge a cessé de fonctionner.</noscript>
+                            <h6><noscript>The clock has stopped working as well as the social networks buttons. </noscript></h6>
                         </div>
                     </div>
                     <div class="card">
@@ -122,7 +118,7 @@ console.log($quotes[quotes]);
                 </div>
             </div>
             <div class="gate-footer">
-                <p>Background depuis <a target="_blank" href="https://unsplash.com/collections/520359/paysages-background">Unsplash</a>
+                <p>Background from <a target="_blank" href="https://unsplash.com/collections/520359/paysages-background">Unsplash</a>
                     - <a class="pointer" data-toggle="modal" data-target="#Info">Infos.</a>
                 </p>
             </div>
@@ -140,14 +136,19 @@ console.log($quotes[quotes]);
                 </div>
                 <div class="modal-body">
                     <ul>
-                        <li>Développé par <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a></li>
-                        <li>Background récupéré aléatoirement depuis <a class="color-gate-text" href="https://unsplash.com/collections/520359/paysages-background" target="_blank">Unsplash</a></li>
-                        <li>Version <span class="color-gate-text">0.33</span></li>
-                        <li>Voir toutes les citations <a class="color-gate-text" href="quotes.php">ici</a>.</li>
-                        <li>Merci à :
+                        <li>Developped by <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a></li>
+                        <li>Background recovered randomly from <a class="color-gate-text" href="https://unsplash.com/collections/520359/paysages-background" target="_blank">Unsplash</a></li>
+                        <li>Version <span class="color-gate-text">1.0</span></li>
+                        <li>The project is <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate" target="_blank" rel="noopener">open source</a>, and <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate#comment-utiliser-the-gate" target="_blank" rel="noopener">help is at your fingertips</a>.</li>
+                        <li>See all quotes <a class="color-gate-text" href="quotes.php">here</a>.</li>
+                        <li>The CSS (stylesheet) is under <a href="https://thomasbnt.fr/cgu/" class="color-gate-text" target="_blank" rel="noopener">TOS</a>
+                        <li>Thanks to :
                             <ul>
                                 <li>
-                                    <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Anyone22</a> pour l'aide de la partie JS des recherches.
+                                    <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Anyone22</a> for the help of the JS part of the searches.
+                                </li>
+                                <li>
+                                    <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Moostache</a> for the tutorial on GitHub
                                 </li>
                             </ul>
                         </li>
@@ -155,7 +156,8 @@ console.log($quotes[quotes]);
                 </div>
                 <div class="modal-footer">
                     <a class="btn mail-color margin-to-2" href="mailto:thomasbnt@protonmail.com" target="_blank"><i class="fa fa-envelope-o"></i> Mail</a>
-                    <button type="button" class="btn color-gate pointer" data-dismiss="modal">Fermer</button>
+                    <a class="btn patreon-color margin-to-2" href="https://www.patreon.com/thomasbnt" target="_blank"><i class="fa fa-patreon"></i> Support me</a>
+                    <button type="button" class="btn color-gate pointer" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>

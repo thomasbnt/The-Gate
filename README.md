@@ -1,75 +1,74 @@
-# Comment utiliser The Gate?
-![Page d'accueil](https://cdn.discordapp.com/attachments/195853124991188993/434495743399559188/Screenshot-2018-4-14_The_Gate.png)_Page d’accueil de The Gate._
+# How to use The Gate?
+![Home](https://cdn.discordapp.com/attachments/195853124991188993/434495743399559188/Screenshot-2018-4-14_The_Gate.png) _The Gate Home Page._
 
 ## I) Introduction
 
-[The Gate](https://gate.thomasbnt.fr) est une simple page qui donne accès plus rapidement à des contenus pour développer et rechercher sans perte de temps, développé par [Thomas Bnt](https://github.com/thomasbnt). [DuckDuckGo](https://duckduckgo.com) est le moteur de recherche utilisé sur cette Startpage qui **respecte votre vie privée**.
+[The Gate](https://gate.thomasbnt.fr) is a simple page that gives faster access to content for developing and searching without wasting time, developed by [Thomas Bnt](https://github.com/thomasbnt). [DuckDuckGo](https://duckduckgo.com) is the search engine used on this Startpage **which respects your privacy**.
 
-## II) Rechercher avec DuckDuckGo
+## II) Search with DuckDuckGo
 
-Pour faire une recherche avec DuckDuckGo, tapez sur votre clavier votre recherche puis appuyez sur la touche entrée. 
+To search with DuckDuckGo, type your search on your keyboard and press the enter key.
 
-> Note: Normalement, le curseur est automatiquement placé sur la barre de recherche mais il peut arriver qu’il ne le soit pas. Dans ce cas, cliquez sur la barre de recherche et tapez votre texte, puis appuyez sur touche entrée.
+> Note: Normally, the cursor is automatically placed on the search bar but it may happen that it is not. In this case, click on the search bar and type your text, then press enter key.
 
-La barre de recherche.
+The search bar.
 
-## III) Effectuer une recherche avec les réseaux sociaux
+## III) Search social networks
 
-![Tout les boutons de The Gate](https://media.discordapp.net/attachments/195853124991188993/434498362092290054/Capture_du_2018-04-14_01-41-08.png)
+![All The Gate Buttons](https://media.discordapp.net/attachments/195853124991188993/434498362092290054/Capture_du_2018-04-14_01-41-08.png)
 
 
-Voici une courte description de chacun des réseaux sociaux affichés :
+Here is a short description of each of the social networks posted:
 
- - **Reddit** - Une énorme communauté rassemblé autour d’énormément de passions, principalement autour de l’informatique.
- - **Twitter** - Un réseau social basé sur de tout petits textes, appelés les Tweets.
- - **YouTube** - Partagez facilement vos vidéos, et regardez le contenu des autres.
- - **Unsplash** - De magnifique photo pour faire des fond d’écran rassemblées ici. Note: c’est ici que nous trouvons des fonds d’écran à afficher sur The Gate !
- - **Wikipédia** - La plus grande encyclopédie numérique au monde.
- - **SoundCloud** - Les artistes indépendants peuvent partager leur musique et écouter celle des autres gratuitement ici.
- - **Last.fm** - Last.fm présente les artistes ttendance du moment et vous fait découvrir de nouveaux morceaux.
- - **Spotify** - La plus grande bibliothèque musicale au monde.
- - **DevDocs** - Des documentations sur les langages informatiques et leur extensions.
- - **Stack Overflow** - Des développeurs prêts à vous offrir des réponses à vos questions sur la programmation informatique.
- - **GitHub** - Tous les logiciels, programmes et autre codes open-sources.
+ - **Reddit** - A huge community gathered around a lot of passion, mainly around computers.
+ - **Twitter** - A social network based on very small texts, called Tweets.
+ - **YouTube** - Easily share your videos, and watch other people's content.
+ - **Unsplash** - Beautiful photo to make wallpaper gathered here. Note: this is where we find wallpapers to display on The Gate!
+ - **Wikipedia** - The world's largest digital encyclopedia.
+ - **SoundCloud** - Independent artists can share their music and listen to others' music for free here.
+ - **Last.fm** - Last.fm introduces the trendy artists of the moment and introduces you to new tracks.
+ - **Spotify** - The largest music library in the world.
+ - **DevDocs** - Documentation on computer languages ​​and their extensions.
+ - **Stack Overflow** - Developers ready to offer you answers to your questions about computer programming.
+ - **GitHub** - All software, programs and other open-source codes.
 
-Pour accéder à la page d'accueil de ces sites, cliquez sur les boutons.
+To access the home page of these sites, click the buttons.
 
-Sinon pour faire une recherche avec ces sites, tapez votre recherche puis cliquez sur le bouton correspondant au site ou vous voulez faire votre recherche.
+If not to do a search with these sites, type your search then click on the button corresponding to the site where you want to do your research.
 
-Tapez votre recherche dans la barre de recherche, sans appuyer sur entrée.
+Type your search in the search bar, without pressing enter.
 
-> Note: Normalement, le curseur est automatiquement placé sur la barre de recherche mais il peut arriver qu’il ne le soit pas. Dans ce cas, cliquez sur la barre de recherche et tapez votre texte.
+> Note: Normally, the cursor is automatically placed on the search bar but it may happen that it is not. In this case, click on the search bar and type your text.
 
-![Faire une recherche ](https://cdn.discordapp.com/attachments/195853124991188993/434503941057806336/wxcvbn.gif)
+![Make a search](https://cdn.discordapp.com/attachments/195853124991188993/434503941057806336/wxcvbn.gif)
 
-Cliquez sur le bouton correspondant au site auquel vous souhaitez faire une recherche (ici YouTube).
-Vous voilà sur le site demandé avec votre recherche tapée !
+Click on the button corresponding to the site you want to search (here YouTube).
+Here you are on the requested site with your typed search!
 
 
 ## IV) Contributions
 
-Les contributions sont toujours les bienvenues ! Lisez les règles pour les contributions avant de pouvoir y participer.
+Contributions are always welcome! Read the rules for contributions before you can participate.
 
 
-Veuillez vous assurer que votre demande de pull request respecte les lignes directrices suivantes :
+Please ensure that your pull request is in accordance with the following guidelines:
 
-- Alphabétisez votre entrée.
-- Rechercher des suggestions précédentes avant d'en faire une nouvelle, comme le vôtre peut être un doublon.
-- Les fichiers README suggérés devraient être beaux ou se démarquer d'une manière ou d'une autre.
-- Faire une demande de pull request individuelle pour chaque suggestion.
-- De nouvelles catégories ou des améliorations à la catégorisation existante sont les bienvenues.
-- Gardez les descriptions courtes et simples, mais descriptives.
-- Commencez la description avec une capitale et terminez par un arrêt / période complet.
-- Vérifiez votre orthographe et votre grammaire.
-- Assurez-vous que votre éditeur de texte est configuré pour supprimer les espaces de fin.
+- Alphabetize your entry.
+- Look for previous suggestions before making a new one, like yours can be a duplicate.
+- The suggested README files should be beautiful or stand out in one way or another.
+- Make a request for an individual pull request for each suggestion.
+- New categories or improvements to the existing categorization are welcome.
+- Keep the descriptions short and simple, but descriptive.
+- Start the description with a capital and end with a stop / full period.
+- Check your spelling and grammar.
+- Make sure your text editor is configured to remove trailing spaces.
 
-Merci pour vos suggestions!
+Thank you for your suggestions!
 
 
-## V) Informations complémentaires
+## V) Additional information
 
-- Sous licence [GNU GPL v3.0](LICENSE)
-- Tutoriel écrit par [Moostache](https://github.com/eldiegomoustachu)
+- Stylesheet is under [TOS](https://thomasbnt.fr/cgu)
+- Licensed [GNU GPL v3.0](LICENSE)
+- Tutorial written by [Moostache](https://github.com/eldiegomoustachu)
 - [StartPage : The Gate](https://gate.thomasbnt.fr)
-
-

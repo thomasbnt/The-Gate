@@ -1,7 +1,7 @@
 /*
 *                      <\_
 *
-*                  Thomas Bnt 
+*                  Thomas Bnt
 *             Https://www.thomasbnt.fr/
 *
 *
@@ -22,14 +22,14 @@ body {
 
 body {
     animation: fadein 1.6s;
-    -moz-animation: fadein 1.6s; 
-    -webkit-animation: fadein 1.6s; 
-    -o-animation: fadein 1.6s; 
+    -moz-animation: fadein 1.6s;
+    -webkit-animation: fadein 1.6s;
+    -o-animation: fadein 1.6s;
 }
 .background {
     display: table;
     width: 100%;
-    height: 100%; 
+    height: 100%;
     min-height: 100%;
     box-shadow: inset 0 0 5rem rgba(0,0,0,.5);
     background-image: url('https://source.unsplash.com/collection/520359/random'); /*https://source.unsplash.com/collection/520359/random */
@@ -38,42 +38,14 @@ body {
     -o-background-size: cover;
     background-size: cover;
     animation: fadein 1.8s;
-    -moz-animation: fadein 1.8s; 
-    -webkit-animation: fadein 1.8s; 
-    -o-animation: fadein 1.8s; 
-}
-@keyframes fadein {
-    from {
-        opacity : 0;
-    }
-    to {
-        opacity : 1;
-    }
-}
-@-moz-keyframes fadein { 
-    from {
-        opacity : 0;
-    }
-    to {
-        opacity : 1;
-    }
-}
-@-webkit-keyframes fadein { 
-    from {
-        opacity : 0;
-    }
-    to {
-        opacity : 1;
-    }
-}
-@-o-keyframes fadein { 
-    from {
-        opacity : 0;
-    }
-    to {
-        opacity : 1;
-    }
-}
+    -moz-animation: fadein 1.8s;
+    -webkit-animation: fadein 1.8s;
+    -o-animation: fadein 1.8s;
+  }
+@keyframes fadein {from {opacity : 0;}to {opacity : 1;}}
+@-moz-keyframes fadein {from {opacity : 0;}to {opacity : 1;}}
+@-webkit-keyframes fadein {from {opacity : 0;}to {opacity : 1;}}
+@-o-keyframes fadein {from {opacity : 0;} to {opacity : 1;}}
 .gate-footer {
     position: fixed;
     bottom: 0;
@@ -91,7 +63,7 @@ body {
     color: white !important;
 }
 .container {
-    padding-top: 10%;
+    padding-top: 7%;
 }
 .aligned-to-quotes {
     margin-top: .5em;
@@ -130,42 +102,17 @@ body {
 }
 /* --- END OF CUSTOMS CLASS --- */
 /* --- COLORS CLASSES --- */
-/* Thomas Bnt */
-.color-thomasbnt {
-    color: #fff;
-    text-shadow: none; /* Prevent inheritance from `body` */
-    background-color: #690014;
-    border: .05rem solid #690014;
-    transition-duration: 0.5s;
-}
-.color-thomasbnt:hover,
-.color-thomasbnt:focus {
-    color: #fff;
-    text-shadow: none; /* Prevent inheritance from `body` */
-    background-color: #690014;
-    border: .05rem solid #690014;
-    transition-duration: 0.5s;
-}
-.color-thomasbnt-text {
-    color: #690014 !important;
-    background-color: transparent;
-    border-color: #690014 !important;
-}
-.color-thomasbnt-border {
-    border-color: #690014 !important;
-}
 /* Gate */
 .color-gate {
     color: #0b716b !important;
     background-color: transparent;
     border-color: #0b716b !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .color-gate:focus,
 .color-gate:hover {
-    background-color: #0b716b !important;
-    color: #fefcff !important;
-    border-color: #0b716b;
+    box-shadow: none;
 }
 .color-gate-text {
     color: #0b716b !important;
@@ -175,18 +122,17 @@ body {
 .color-gate-border {
     border-color: #0b716b !important;
 }
-/* Twitter */
+/* twitter-color */
 .twitter-color {
     color: #1da1f2 !important;
     background-color: transparent;
     border-color: #1da1f2 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+  box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .twitter-color:focus,
 .twitter-color:hover {
-    background-color: #1da1f2 !important;
-    color: #fefcff !important;
-    border-color: #1da1f2;
+    box-shadow: none;
 }
 .twitter-color-text {
     color: #1da1f2 !important;
@@ -201,13 +147,12 @@ body {
     color: #23CF5F !important;
     background-color: transparent;
     border-color: #23CF5F !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .spotify-color:focus,
 .spotify-color:hover {
-    background-color: #23CF5F !important;
-    color: #fefcff !important;
-    border-color: #23CF5F;
+    box-shadow: none;
 }
 .spotify-color-text {
     color: #23CF5F !important;
@@ -222,7 +167,8 @@ body {
     color: #4267B2 !important;
     background-color: transparent;
     border-color: #4267B2 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .facebook-color:focus,
 .facebook-color:hover {
@@ -243,13 +189,12 @@ body {
     color: #FF0000 !important;
     background-color: transparent;
     border-color: #FF0000 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+   box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .youtube-color:focus,
 .youtube-color:hover {
-    background-color: #FF0000 !important;
-    color: #fefcff !important;
-    border-color: #FF0000;
+   box-shadow: none;
 }
 .youtube-color-text {
     color: #FF0000 !important;
@@ -264,13 +209,12 @@ body {
     color: #fefcff !important;
     background-color: transparent;
     border-color: #fefcff !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .unsplash-color:focus,
 .unsplash-color:hover {
-    background-color: #fefcff !important;
-    color: #0C0C0B !important;
-    border-color: #fefcff !important;
+    box-shadow: none;
 }
 .unsplash-color-text {
     color: #fefcff !important;
@@ -285,13 +229,12 @@ body {
     color: #f08032 !important;
     background-color: transparent;
     border-color: #f08032 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .stackoverflow-color:focus,
 .stackoverflow-color:hover {
-    background-color: #f08032 !important;
-    color: #fefcff !important;
-    border-color: #f08032;
+    box-shadow: none;
 }
 .stackoverflow-color-text {
     color: #f08032 !important;
@@ -306,13 +249,12 @@ body {
     color: #222222 !important;
     background-color: transparent;
     border-color: #222222 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .wikipedia-color:focus,
 .wikipedia-color:hover {
-    background-color: #222222 !important;
-    color: #E5E5E5 !important;
-    border-color: #222222;
+    box-shadow: none;
 }
 .wikipedia-color-text {
     color: #222222 !important;
@@ -327,13 +269,12 @@ body {
     color: #3377c0 !important;
     background-color: transparent;
     border-color: #3377c0 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .devdocs-color:focus,
 .devdocs-color:hover {
-    background-color: #3377c0 !important;
-    color: #fefcff !important;
-    border-color: #3377c0;
+  box-shadow: none;
 }
 .devdocs-color-text {
     color: #3377c0 !important;
@@ -343,40 +284,17 @@ body {
 .devdocs-color-border {
     border-color: #3377c0 !important;
 }
-
-/* Mr_Robot */
-.mrrobot-color {
-    color: #4C2562 !important;
-    background-color: transparent;
-    border-color: #4C2562 !important;
-    transition: 0.4s;
-}
-.mrrobot-color:focus,
-.mrrobot-color:hover {
-    background-color: #4C2562 !important;
-    color: #fefcff !important;
-    border-color: #4C2562 !important;
-}
-.mrrobot-color-text {
-    color: #4C2562 !important;
-    background-color: transparent;
-    border-color: #4C2562 !important;
-}
-.mrrobot-color-border {
-    border-color: #4C2562 !important;
-}
 /* default-color */
 .default-color {
     color: #32464a !important;
     background-color: transparent;
     border-color: #32464a !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .default-color:focus,
 .default-color:hover {
-    background-color: #32464a !important;
-    color: #fefcff !important;
-    border-color: #32464a !important;
+    box-shadow: none;
 }
 .default-color-text {
     color: #32464a !important;
@@ -391,13 +309,11 @@ body {
     color: #0C0C0B !important;
     background-color: transparent;
     border-color: #0C0C0B !important;
-    transition: 0.4s;
+    transition: 0.3s;
 }
 .github-color:focus,
 .github-color:hover {
-    background-color: #0C0C0B !important;
-    color: #fefcff !important;
-    border-color: #0C0C0B !important;
+    box-shadow: none;
 }
 .github-color-text {
     color: #0C0C0B !important;
@@ -412,13 +328,12 @@ body {
     color: #FF4500 !important;
     background-color: transparent;
     border-color: #FF4500 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .reddit-color:focus,
 .reddit-color:hover {
-    background-color: #FF4500 !important;
-    color: #fefcff !important;
-    border-color: #FF4500 !important;
+    box-shadow: none;
 }
 .reddit-color-text {
     color: #FF4500 !important;
@@ -433,13 +348,12 @@ body {
     color: #2588d0 !important;
     background-color: transparent;
     border-color: #2588d0 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+   box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .mastodon-color:focus,
 .mastodon-color:hover {
-    background-color: #2588d0 !important;
-    color: #fefcff !important;
-    border-color: #2588d0 !important;
+    box-shadow: none;
 }
 .mastodon-color-text {
     color: #2588d0 !important;
@@ -449,39 +363,17 @@ body {
 .mastodon-color-border {
     border-color: #2588d0 !important;
 }
-/* discord-color */
-.discord-color {
-    color: #7289DA !important;
-    background-color: transparent;
-    border-color: #7289DA !important;
-    transition: 0.4s;
-}
-.discord-color:focus,
-.discord-color:hover {
-    background-color: #7289DA !important;
-    color: #fefcff !important;
-    border-color: #7289DA !important;
-}
-.discord-color-text {
-    color: #7289DA !important;
-    background-color: transparent;
-    border-color: #7289DA !important;
-}
-.discord-color-border {
-    border-color: #7289DA !important;
-}
 /* mail-color */
 .mail-color {
     color: #45454D !important;
     background-color: transparent;
     border-color: #45454D !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .mail-color:focus,
 .mail-color:hover {
-    background-color: #45454D !important;
-    color: #fefcff !important;
-    border-color: #45454D !important;
+    box-shadow: none;
 }
 .mail-color-text {
     color: #45454D !important;
@@ -496,13 +388,12 @@ body {
     color: #ff5500 !important;
     background-color: transparent;
     border-color: #ff5500 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .soundcloud-color:focus,
 .soundcloud-color:hover {
-    background-color: #ff5500 !important;
-    color: #fefcff !important;
-    border-color: #ff5500 !important;
+    box-shadow: none;
 }
 .soundcloud-color-text {
     color: #ff5500 !important;
@@ -517,13 +408,12 @@ body {
     color: #CB0000 !important;
     background-color: transparent;
     border-color: #CB0000 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .lastfm-color:focus,
 .lastfm-color:hover {
-    background-color: #CB0000 !important;
-    color: #fefcff !important;
-    border-color: #CB0000 !important;
+    box-shadow: none;
 }
 .lastfm-color-text {
     color: #CB0000 !important;
@@ -538,13 +428,12 @@ body {
     color: #F96854 !important;
     background-color: transparent;
     border-color: #F96854 !important;
-    transition: 0.4s;
+    transition: 0.3s;
+    box-shadow: 0 .27rem 0.2rem rgba(0,0,0,.4);
 }
 .patreon-color:focus,
 .patreon-color:hover {
-    background-color: #F96854 !important;
-    color: #fefcff !important;
-    border-color: #F96854 !important;
+  box-shadow: none;
 }
 .patreon-color-text {
     color: #F96854 !important;
@@ -555,4 +444,3 @@ body {
     border-color: #F96854 !important;
 }
 /* --- END OF COLORS CLASSES --- */
-

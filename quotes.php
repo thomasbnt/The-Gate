@@ -4,9 +4,9 @@
         <meta charset="utf-8">
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Toutes les citations | The Gate</title>
-        <meta name="description" content="Une simple page qui donne accès plus rapidement à des contenus pour développer & rechercher sans perte de temps.">
-        <meta name="Keywords" content="thomasbnt,outil,developper,dev,french,francais,gate,portail">
+        <title>All quotes | The Gate</title>
+        <meta name="description" content="A simple page that gives you faster access to content to develop & search without wasting time.">
+        <meta name="Keywords" content="thomasbnt,outil,developper,dev,french,francais,gate,portail,vie,privée,open,source,duckduckgo">
         <meta name="robots" content="noindex, nofollow">
         <meta name="googlebot" content="noindex, nofollow">
         <link rel="icon" type="image/png" href="assets/img/favicon.png"/>
@@ -14,13 +14,13 @@
         <meta property="og:title" content="The Gate"/>
         <meta property="og:type" content="website"/>
         <meta property="og:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png"/>
-        <meta property="og:description" content="Une simple page qui donne accès plus rapidement à des contenus pour développer & rechercher sans perte de temps."/>
+        <meta property="og:description" content="A simple page that gives you faster access to content to develop & search without wasting time."/>
         <!-- Twitter Card -->
         <meta name="twitter:url" content="https://gate.thomasbnt.fr/">
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:site" content="@hyprimort" />
         <meta name="twitter:title" content="The Gate" />
-        <meta name="twitter:description" content="Une simple page qui donne accès plus rapidement à des contenus pour développer & rechercher sans perte de temps." />
+        <meta name="twitter:description" content="A simple page that gives you faster access to content to develop & search without wasting time." />
         <meta name="twitter:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png" />
         <!-- Add to homescreen for Chrome on Android -->
         <meta name="mobile-web-app-capable" content="yes">

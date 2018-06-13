@@ -126,41 +126,40 @@
     </div>
 
     <div class="modal fade" id="Info" tabindex="-1" role="dialog" aria-labelledby="ModalInfo" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="ModalInfo">Informations</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <ul>
-                        <li>Developped by <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a></li>
-                        <li>Background recovered randomly from <a class="color-gate-text" href="https://unsplash.com/collections/520359/paysages-background" target="_blank">Unsplash</a></li>
-                        <li>Version <span class="color-gate-text">1.0</span></li>
-                        <li>The project is <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate" target="_blank" rel="noopener">open source</a>, and <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate#comment-utiliser-the-gate" target="_blank" rel="noopener">help is at your fingertips</a>.</li>
-                        <li>See all quotes <a class="color-gate-text" href="quotes.php">here</a>.</li>
-                        <li>The CSS (stylesheet) is under <a href="https://thomasbnt.fr/cgu/" class="color-gate-text" target="_blank" rel="noopener">TOS</a>
-                        <li>Thanks to :
-                            <ul>
-                                <li>
-                                    <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Anyone22</a> for the help of the JS part of the searches.
-                                </li>
-                                <li>
-                                    <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Moostache</a> for the tutorial on GitHub
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-                <div class="modal-footer">
-                    <a class="btn mail-color margin-to-2" href="mailto:thomasbnt@protonmail.com" target="_blank"><i class="fa fa-envelope-o"></i> Mail</a>
-                    <a class="btn patreon-color margin-to-2" href="https://www.patreon.com/thomasbnt" target="_blank"><i class="fa fa-patreon"></i> Support me</a>
-                    <button type="button" class="btn color-gate pointer" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+          <h5 class="modal-title" id="ModalInfo">Informations</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+          </button>
+          </div>
+          <div class="modal-body">
+            <ul>
+              <li>Developped by <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a> - Version <span class="color-gate-text">1.0.1</span></li>
+              <li>Background recovered randomly from <a class="color-gate-text" href="https://unsplash.com/collections/520359/paysages-background" target="_blank">Unsplash</a></li>
+              <li>The project is <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate" target="_blank" rel="noopener">open source</a>, and <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate#how-to-use-the-gate" target="_blank" rel="noopener">help is at your fingertips</a>.</li>
+              <li>See all quotes <a class="color-gate-text" href="quotes.php">here</a>.</li>
+              <li>The CSS (stylesheet) is under <a href="https://thomasbnt.fr/cgu/" class="color-gate-text" target="_blank" rel="noopener">TOS</a>
+              <li>Thanks to :
+                <ul>
+                  <li>
+                  <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Anyone22</a> for the help of the JS part of the searches.
+                  </li>
+                  <li>
+                    <a class="color-gate-text" href="https://twitter.com/elmoostache" target="_blank">Moostache</a> for the tutorial on GitHub
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <a class="btn mail-color margin-to-2" href="mailto:thomasbnt@protonmail.com" target="_blank"><i class="fa fa-envelope-o"></i> Mail</a>
+            <a class="btn patreon-color margin-to-2" href="https://www.patreon.com/thomasbnt" target="_blank"><i class="fa fa-patreon"></i> Support me</a>
+            <button type="button" class="btn color-gate pointer" data-dismiss="modal">Close</button>
+          </div>
         </div>
+      </div>
     </div>
 
 

@@ -1,3 +1,6 @@
+<?php
+require('function.php');
+?>
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
@@ -42,11 +45,7 @@
     <!-- Stylesheep custom -->
     <link async type="text/css" rel="stylesheet" href="assets/css/custom.css">
 </head>
-  <?php
-  $json = file_get_contents('quotes.json');
-  $quotes = json_decode($json,true);
-  console.log($quotes[quotes]);
-  ?>
+    
 <body onLoad="Enter()">
     <div class="background d-block d-sm-none">
         <div class="container">
@@ -110,7 +109,7 @@
                         <span class="color-gate-text blockquote-guillemet"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                         <div class="card-body card-shadow">
                             <blockquote class="blockquote mb-0">
-                                <p><?php echo array_rand( $quotes )?></p>
+                                <p><?= randCitation("quotes.json") ?></p>
                                 <footer class="blockquote-footer">Tim Berners-Lee</footer>
                             </blockquote>
                         </div>

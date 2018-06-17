@@ -1,5 +1,8 @@
+<?php
+require('function.php');
+?>
 <!DOCTYPE HTML>
-<html lang="fr">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <!--Let browser know website is optimized for mobile-->
@@ -60,7 +63,7 @@
             <div class="container">
                 <div class="card">
                     <div class="card-body">
-                        <?php echo $la_quote . '<br>';?>
+                        <?php echo '<b>' . $la_quote . '.</b> '. $valeur . '<br>' ;?>
                     </div>
                 </div>
             </div>

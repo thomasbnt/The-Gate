@@ -12,3 +12,5 @@ function randCitation ($list) {
 	
 	echo$result[$nova];
 }
+
+?>

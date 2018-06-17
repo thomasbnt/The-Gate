@@ -146,6 +146,9 @@ require('function.php');
                   <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Anyone22</a> for the help of the JS part of the searches.
                   </li>
                   <li>
+                    <a class="color-gate-text" href="https://www.youtube.com/channel/UC6JbBWZo49HNHIUJBoIQ7PQ?view_as=subscriber" target="_blank">Nova-Dev</a> for the help of the PHP.
+                  </li>
+                  <li>
                     <a class="color-gate-text" href="https://twitter.com/elmoostache" target="_blank">Moostache</a> for the tutorial on GitHub
                   </li>
                 </ul>

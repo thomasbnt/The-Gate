@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aaf7f3a9-dca5-44fe-8a0a-6fd94e267e87" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quotes.json" beforeDir="false" afterPath="$PROJECT_DIR$/quotes.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quotes.php" beforeDir="false" afterPath="$PROJECT_DIR$/quotes.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,8 +35,8 @@
       <file leaf-file-name="quotes.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/quotes.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+            <state relative-caret-position="518">
+              <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
             </state>
           </provider>
         </entry>
@@ -125,12 +123,12 @@
       <workItem from="1529247064164" duration="62000" />
       <workItem from="1529247165093" duration="19000" />
       <workItem from="1529247235851" duration="9341000" />
-      <workItem from="1529257305434" duration="2859000" />
+      <workItem from="1529257305434" duration="3204000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12281000" />
+    <option name="totallyTimeSpent" value="12626000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-4" width="1303" height="773" extended-state="6" />
@@ -188,8 +186,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quotes.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="65" column="56" selection-start-line="65" selection-start-column="56" selection-end-line="65" selection-end-column="56" />
+        <state relative-caret-position="518">
+          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
         </state>
       </provider>
     </entry>

@@ -60,7 +60,7 @@ require('function.php');
                         <span class="color-gate-text blockquote-guillemet"><i class="fa fa-quote-right" aria-hidden="true"></i></span>
                         <div class="card-body card-shadow">
                             <blockquote class="blockquote mb-0">
-                                <p><?php echo array_rand( $quotes )?></p>
+                                <p><?= randCitation("quotes.json") ?></p>
                                 <footer class="blockquote-footer">Tim Berners-Lee</footer>
                             </blockquote>
                         </div>

@@ -25,10 +25,10 @@ require('function.php');
     <meta name="twitter:title" content="The Gate" />
     <meta name="twitter:description" content="A simple page that gives you faster access to content to develop & search without wasting time." />
     <meta name="twitter:image" content="https://gate.thomasbnt.fr/assets/img/favicon.png" />
-    <!-- Add to homescreen for Chrome on Android -->
-    <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="assets/img/favicon.png">
+
     <meta name="theme-color" content="#0b716b">
+    <!-- Manifest -->
+    <link rel="manifest" href="manifest.json">
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="green">
@@ -102,7 +102,7 @@ require('function.php');
                     <div class="card d-none d-md-block">
                         <div class="card-body card-shadow horloge">
                             <span id="date_heure"></span>
-                            <h6><noscript>The clock has stopped working as well as the social networks buttons. </noscript></h6>
+                            <h6><noscript>Please enable Javascript for the clock and buttons. </noscript></h6>
                         </div>
                     </div>
                     <div class="card">
@@ -169,6 +169,7 @@ require('function.php');
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script defer src="assets/js/popper.min.js"></script>
     <script defer src="assets/js/bootstrap.min.js"></script>
+    <!----- For Stats, delete me! ----->
     <!-- Matomo -->
     <script type="text/javascript">
         var _paq = _paq || [];
@@ -183,8 +184,28 @@ require('function.php');
             g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
         })();
     </script>
-    <noscript><p><img src="//analytics.thomasbnt.fr/piwik.php?idsite=3&rec=1" style="border:0;" alt="" /></p></noscript>
     <!-- End Matomo Code -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-90310174-7"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-90310174-7');
+    </script>
+    <!----- End for Stats, delete me! ----->
+    <script>
+    if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(function(registration) {
+        console.log('Service worker registration succeeded:', registration);
+    }, function(error) {
+        console.log('Service worker registration failed:', error);
+    });
+    } else {
+    console.log('Service workers are not supported.');
+    }
+    </script>
     <!-- Init -->
     <script type="text/javascript" src="assets/js/init.js"></script>
     <!-- L'heure tourne .. -->

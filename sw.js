@@ -16,6 +16,7 @@ self.addEventListener('install', function(e) {
        '/assets/fonts/forkawesome-webfont.svg?v=1.0.10',
        '/assets/fonts/forkawesome-webfont.woff?v=1.0.10',
        '/assets/fonts/forkawesome-webfont.woff2?v=1.0.10',
+       'https://code.jquery.com/jquery-3.2.1.slim.min.js',
        '/assets/js/popper.min.js',
        '/assets/js/bootstrap.min.js',
        '/assets/js/init.js'

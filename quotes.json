@@ -130,5 +130,37 @@
     "32": {
         "quote": " Java is to JavaScript what Car is to Carpet.",
         "author":"Chris Heilmann"
+    },
+    "33": {
+        "quote": " Linux is only free if your time has no value.",
+        "author": "Jamie Zawinski"
+    },
+    "34": {
+        "quote": "Knowledge is power.",
+        "author": "Francis Bacon"
+    },
+    "35": {
+        "quote": "One man’s constant is another man’s variable.",
+        "author": "Alan J. Perlis"
+    },
+    "36": {
+        "quote": "Software is like sex: It’s better when it’s free.",
+        "author": "Linus Torvalds"
+    },
+    "37": {
+        "quote": "The best way to get a project done faster is to start sooner.",
+        "author": "Jim Highsmith"
+    },
+    "38": {
+        "quote": "Be yourself; everyone else is already taken.",
+        "author": "Oscar Wilde"
+    },
+    "39": {
+        "quote": "A person who never made a mistake never tried anything new.",
+        "author": "Albert Einstein"
+    },
+    "40": {
+        "quote": "Talk is cheap, show me the code!",
+        "author": "Linus Torvalds"
     }
 }

@@ -51,27 +51,26 @@ require('function.php');
     </style>
 </head>
 <body onLoad="Enter()">
-<!-- Random Quotes -->
+<!-- Get all quotes -->
 <?php
 
-$json = file_get_contents('quotes.json'); // Récupère les informations du JSON
-$quotes = json_decode($json,true); // Le décode
+$json = file_get_contents('quotes.json'); // Get JSON data
+$quotes = json_decode($json,true); // Decoding JSON
 
+foreach ($quotes as $key => $quote) {
+// For each quotes, get the key and the content
+?>
 
-foreach ($quotes as $la_quote => $valeur) {
-    ?>
     <div class="container">
         <div class="card">
             <div class="card-body">
-                <?php echo '<b>' . $la_quote . '.</b> '. $valeur . '<br>' ;?>
+                <?php echo '<b>' . $key . '.</b> '. $quote["quote"] . ' - ' . $quote["author"] . '<br>' ;?>
             </div>
         </div>
     </div>
 
+<?php }; ?>
 
-    <?php
-};
-?>
 <!-- Bootstrap core JavaScript -->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script defer src="assets/js/popper.min.js"></script>

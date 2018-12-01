@@ -6,11 +6,13 @@ function randCitation ($list) {
 		echo "Merci de mettre une liste valide !";
 	}
 
-	$list = @file_get_contents($list);
-	$result = json_decode($list, true);
-	$nova = @array_rand($result);
-	
-	echo$result[$nova];
+	$quotes = @file_get_contents($list); // Get JSON data
+	$result = json_decode($quotes, true); // Decoding JSON
+
+	$key = @array_rand($result); // Get a random key
+
+	echo '<p>' . $result[$key]["quote"] . '</p><footer class="blockquote-footer">' . $result[$key]["author"] . '</footer>';
+
 }
 
 ?>

@@ -10,6 +10,7 @@ self.addEventListener('install', function(e) {
        '/assets/css/bootstrap.css',
        '/assets/css/bootstrap.min.css',
        '/assets/css/custom.css',
+       '/assets/css/custom.min.css',
        '/assets/css/fork-awesome.min.css',
        '/assets/fonts/forkawesome-webfont.ttf?v=1.0.10',
        '/assets/fonts/forkawesome-webfont.eot?v=1.0.10',

@@ -1,32 +1,166 @@
-
 {
-    "0" : "Anyone who has lost track of time when using a computer knows the propensity to dream, the urge to make dreams come true and the tendency to miss lunch.",
-    "1" : "Celebrity damages private life.",
-    "2" : "Data is a precious thing and will last longer than the systems themselves.",
-    "3": "If you are not on the web, you will have problems accessing services.",
-    "4": "You affect the world by what you browse.",
-    "5": "Things can change so fast on the internet.",
-    "6": "It's difficult to imagine the power that you're going to have when so many different sorts of data are available.",
-    "7": "That idea of URL was the basic clue to the universality of the Web. That was the only thing I insisted upon.",
-    "8": "The Domain Name Server (DNS) is the Achilles heel of the Web. The important thing is that it's managed responsibly.",
-    "9": "The important thing is the diversity available on the Web.",
-    "10": "Innovation is serendipity, so you don't know what people will make.",
-    "11": "The most important thing that was new was the idea of URI-or URL, that any piece of information anywhere should have an identifier, which will allow you to get hold of it.",
-    "12": "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.",
-    "13": "The Web does not just connect machines, it connects people.",
-    "14": "The web is more a social creation than a technical one. I designed it for a social effect - to help people work together - and not as a technical toy.",
-    "15": "The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.",
-    "16": "When I invented the Web, I didn't have to ask anyone's permission. Now, hundreds of millions of people are using it freely. I am worried that that is going end in the USA.",
-    "17": "I invented the web just because I needed it really because it was so frustrating that it didn't exit.",
-    "18": "We need diversity of thought in the world to face the new challenges.",
-    "19": "When you understand things, there's no more magic.",
-    "20": "Physicists analyze systems. Web scientists, however, can create the systems.",
-    "21": "The Mobile Web Initiative is important - information must be made seamlessly available on any device.",
-    "22": "I hope we will use the Net to cross barriers and connect cultures.",
-    "23": "My own personal preference is that the consumer, the individual person should be protected because individual people and the difference between individual people and the diversity we have between people on the planet is so important.",
-    "24": "It was the academic community who wired up their universities so it was put together by smart, well-meaning people who thought it was a good idea.",
-    "25": "It is the the duty of a Webmaster to allocate URIs which you will be able to stand by in 2 years, in 20 years, in 200 years.",
-    "26": "The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies.",
-    "27": "Now, if someone tries to monopolize the Web, for example pushes proprietary variations on network protocols, then that would make me unhappy.",
-    "28": "I don't mind being, in the public context, referred to as the inventor of the World Wide Web. What I like is that image to be separate from private life, because celebrity damages private life."
+    "0": {
+        "quote": "Anyone who has lost track of time when using a computer knows the propensity to dream, the urge to make dreams come true and the tendency to miss lunch.",
+        "author": "Tim Berners-Lee"
+    },
+    "1": {
+        "quote": "Celebrity damages private life.",
+        "author": "Tim Berners-Lee"
+    },
+    "2": {
+        "quote": "Data is a precious thing and will last longer than the systems themselves.",
+        "author": "Tim Berners-Lee"
+    },
+    "3": {
+        "quote": "If you are not on the web, you will have problems accessing services.",
+        "author": "Tim Berners-Lee"
+    },
+    "4": {
+        "quote": "You affect the world by what you browse.",
+        "author": "Tim Berners-Lee"
+    },
+    "5": {
+        "quote": "Things can change so fast on the internet.",
+        "author": "Tim Berners-Lee"
+    },
+    "6": {
+        "quote": "It's difficult to imagine the power that you're going to have when so many different sorts of data are available.",
+        "author": "Tim Berners-Lee"
+    },
+    "7": {
+        "quote": "That idea of URL was the basic clue to the universality of the Web. That was the only thing I insisted upon.",
+        "author": "Tim Berners-Lee"
+    },
+    "8": {
+        "quote": "The Domain Name Server (DNS) is the Achilles heel of the Web. The important thing is that it's managed responsibly.",
+        "author": "Tim Berners-Lee"
+    },
+    "9": {
+        "quote": "The important thing is the diversity available on the Web.",
+        "author": "Tim Berners-Lee"
+    },
+    "10": {
+        "quote": "Innovation is serendipity, so you don't know what people will make.",
+        "author": "Tim Berners-Lee"
+    },
+    "11": {
+        "quote": "The most important thing that was new was the idea of URI-or URL, that any piece of information anywhere should have an identifier, which will allow you to get hold of it.",
+        "author": "Tim Berners-Lee"
+    },
+    "12": {
+        "quote": "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect.",
+        "author": "Tim Berners-Lee"
+    },
+    "13": {
+        "quote": "The Web does not just connect machines, it connects people.",
+        "author": "Tim Berners-Lee"
+    },
+    "14": {
+        "quote": "The web is more a social creation than a technical one. I designed it for a social effect - to help people work together - and not as a technical toy.",
+        "author": "Tim Berners-Lee"
+    },
+    "15": {
+        "quote": "The Web as I envisaged it, we have not seen it yet. The future is still so much bigger than the past.",
+        "author": "Tim Berners-Lee"
+    },
+    "16": {
+        "quote": "When I invented the Web, I didn't have to ask anyone's permission. Now, hundreds of millions of people are using it freely. I am worried that that is going end in the USA.",
+        "author": "Tim Berners-Lee"
+    },
+    "17": {
+        "quote": "I invented the web just because I needed it really because it was so frustrating that it didn't exit.",
+        "author": "Tim Berners-Lee"
+    },
+    "18": {
+        "quote": "We need diversity of thought in the world to face the new challenges.",
+        "author": "Tim Berners-Lee"
+    },
+    "19": {
+        "quote": "When you understand things, there's no more magic.",
+        "author": "Tim Berners-Lee"
+    },
+    "20": {
+        "quote": "Physicists analyze systems. Web scientists, however, can create the systems.",
+        "author": "Tim Berners-Lee"
+    },
+    "21": {
+        "quote": "The Mobile Web Initiative is important - information must be made seamlessly available on any device.",
+        "author": "Tim Berners-Lee"
+    },
+    "22": {
+        "quote": "I hope we will use the Net to cross barriers and connect cultures.",
+        "author": "Tim Berners-Lee"
+    },
+    "23": {
+        "quote": "My own personal preference is that the consumer, the individual person should be protected because individual people and the difference between individual people and the diversity we have between people on the planet is so important.",
+        "author": "Tim Berners-Lee"
+    },
+    "24": {
+        "quote": "It was the academic community who wired up their universities so it was put together by smart, well-meaning people who thought it was a good idea.",
+        "author": "Tim Berners-Lee"
+    },
+    "25": {
+        "quote": "It is the the duty of a Webmaster to allocate URIs which you will be able to stand by in 2 years, in 20 years, in 200 years.",
+        "author": "Tim Berners-Lee"
+    },
+    "26": {
+        "quote": "The ultimate goal of the Web is to support and improve our weblike existence in the world. We clump into families, associations, and companies.",
+        "author": "Tim Berners-Lee"
+    },
+    "27": {
+        "quote": "Now, if someone tries to monopolize the Web, for example pushes proprietary variations on network protocols, then that would make me unhappy.",
+        "author": "Tim Berners-Lee"
+    },
+    "28": {
+        "quote": "I don't mind being, in the public context, referred to as the inventor of the World Wide Web. What I like is that image to be separate from private life, because celebrity damages private life.",
+        "author": "Tim Berners-Lee"
+    },
+    "29": {
+        "quote": "Details matter, it's worth waiting to get it right.",
+        "author": "Steve Jobs"
+    },
+    "30": {
+        "quote": "The fundamental truth for developers is they will build if there are users.",
+        "author": "Satya Nadella"
+    },
+    "31": {
+        "quote": "I love deadlines. I like the whooshing sound they make as they fly by.",
+        "author": "Douglas Adams"
+    },
+    "32": {
+        "quote": " Java is to JavaScript what Car is to Carpet.",
+        "author":"Chris Heilmann"
+    },
+    "33": {
+        "quote": " Linux is only free if your time has no value.",
+        "author": "Jamie Zawinski"
+    },
+    "34": {
+        "quote": "Knowledge is power.",
+        "author": "Francis Bacon"
+    },
+    "35": {
+        "quote": "One man’s constant is another man’s variable.",
+        "author": "Alan J. Perlis"
+    },
+    "36": {
+        "quote": "Software is like sex: It’s better when it’s free.",
+        "author": "Linus Torvalds"
+    },
+    "37": {
+        "quote": "The best way to get a project done faster is to start sooner.",
+        "author": "Jim Highsmith"
+    },
+    "38": {
+        "quote": "Be yourself; everyone else is already taken.",
+        "author": "Oscar Wilde"
+    },
+    "39": {
+        "quote": "A person who never made a mistake never tried anything new.",
+        "author": "Albert Einstein"
+    },
+    "40": {
+        "quote": "Talk is cheap, show me the code!",
+        "author": "Linus Torvalds"
+    }
 }

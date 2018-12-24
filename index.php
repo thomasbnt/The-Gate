@@ -167,6 +167,7 @@ require('function.php');
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script defer src="assets/js/popper.min.js"></script>
     <script defer src="assets/js/bootstrap.min.js"></script>
+    <script defer src="assets/js/cache-polyfill.js"></script>
     <!----- For Stats, delete me! ----->
     <!-- Matomo -->
     <script type="text/javascript">

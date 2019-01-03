@@ -73,6 +73,9 @@ require('function.php');
         </div>
     </div>
     <div class="background d-none d-md-block">
+    <div class="alert alert-info" role="alert" style="margin: 0px;border-radius: unset;color: #212529;background-color: white;border-color: transparent;">
+    What do you think of a version 2 of the project? Much more advanced? <a class="default-color-text" href="mailto:thomasbnt@protonmail.com">Tell me !</a>
+    </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 aligned-to-quotes">
@@ -138,19 +141,7 @@ require('function.php');
               <li>The project is <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate" target="_blank" rel="noopener">open source</a>, and <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate#how-to-use-the-gate" target="_blank" rel="noopener">help is at your fingertips</a>.</li>
               <li>See all quotes <a class="color-gate-text" href="quotes.php">here</a>.</li>
               <li>The CSS (stylesheet) is under <a href="https://thomasbnt.fr/cgu/" class="color-gate-text" target="_blank" rel="noopener">TOS</a>
-              <li>Thanks to :
-                <ul>
-                  <li>
-                  <a class="color-gate-text" href="https://twitter.com/TomGouville" target="_blank">Anyone22</a> for the help of the JS part of the searches.
-                  </li>
-                  <li>
-                    <a class="color-gate-text" href="https://www.youtube.com/channel/UC6JbBWZo49HNHIUJBoIQ7PQ?view_as=subscriber" target="_blank">Nova-Dev</a> for the help of the PHP.
-                  </li>
-                  <li>
-                    <a class="color-gate-text" href="https://elmoostache.github.io/" target="_blank">Moostache</a> for the tutorial on GitHub
-                  </li>
-                </ul>
-              </li>
+              <li>Thanks to <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate/graphs/contributors">all contributors</a> !</li>
             </ul>
           </div>
           <div class="modal-footer">

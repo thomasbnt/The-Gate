@@ -73,9 +73,6 @@ require('function.php');
         </div>
     </div>
     <div class="background d-none d-md-block">
-    <div class="alert alert-info" role="alert" style="margin: 0px;border-radius: unset;color: #212529;background-color: white;border-color: transparent;">
-    What do you think of a version 2 of the project? Much more advanced? <a class="default-color-text" href="mailto:thomasbnt@protonmail.com">Tell me !</a>
-    </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-8 aligned-to-quotes">

@@ -31,26 +31,8 @@ body {
   -webkit-animation: fadein 1.8s;
   -o-animation: fadein 1.8s
 }
-
-@keyframes fadein {
-  from {
-    opacity: 0
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-@-webkit-keyframes fadein {
-  from {
-    opacity: 0
-  }
-
-  to {
-    opacity: 1
-  }
-}
+@keyframes fadein {from {opacity: 0}to {opacity: 1}}
+@-webkit-keyframes fadein {from {opacity: 0}to {opacity: 1}}
 
 .gate-footer {
   position: fixed;
@@ -65,10 +47,13 @@ body {
 }
 
 .card-shadow {
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4);
 }
 
-.gate-footer>p>a {
+.modal-content {
+  box-shadow: 0 0.17rem 0.2rem rgba(0, 0, 0, .4);
+}
+.gate-footer > p > a {
   color: #fff !important
 }
 
@@ -94,22 +79,6 @@ body {
   top: 4px
 }
 
-.rounded {
-  border-radius: .25rem
-}
-
-.cgu-color {
-  background-color: #212121 !important
-}
-
-.ssl-color-text {
-  color: green !important
-}
-
-.source-code-pro {
-  font-family: source code pro, monospace !important
-}
-
 .pointer {
   cursor: pointer
 }
@@ -123,7 +92,7 @@ body {
   background-color: transparent;
   border-color: #0b716b !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .color-gate:focus,
@@ -146,7 +115,7 @@ body {
   background-color: transparent;
   border-color: #1da1f2 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .twitter-color:focus,
@@ -169,7 +138,7 @@ body {
   background-color: transparent;
   border-color: #23cf5f !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .spotify-color:focus,
@@ -192,7 +161,7 @@ body {
   background-color: transparent;
   border-color: #4267b2 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .facebook-color:focus,
@@ -217,7 +186,7 @@ body {
   background-color: transparent;
   border-color: red !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .youtube-color:focus,
@@ -240,7 +209,7 @@ body {
   background-color: transparent;
   border-color: #fefcff !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .unsplash-color:focus,
@@ -263,7 +232,7 @@ body {
   background-color: transparent;
   border-color: #f08032 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .stackoverflow-color:focus,
@@ -286,7 +255,7 @@ body {
   background-color: transparent;
   border-color: #222 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .wikipedia-color:focus,
@@ -309,7 +278,7 @@ body {
   background-color: transparent;
   border-color: #3377c0 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .devdocs-color:focus,
@@ -332,7 +301,7 @@ body {
   background-color: transparent;
   border-color: #32464a !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .default-color:focus,
@@ -355,7 +324,7 @@ body {
   background-color: transparent;
   border-color: #0c0c0b !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .github-color:focus,
@@ -378,7 +347,7 @@ body {
   background-color: transparent;
   border-color: #ff4500 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .reddit-color:focus,
@@ -401,7 +370,7 @@ body {
   background-color: transparent;
   border-color: #2588d0 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .mastodon-color:focus,
@@ -424,7 +393,7 @@ body {
   background-color: transparent;
   border-color: #45454d !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .mail-color:focus,
@@ -447,7 +416,7 @@ body {
   background-color: transparent;
   border-color: #f50 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .soundcloud-color:focus,
@@ -470,7 +439,7 @@ body {
   background-color: transparent;
   border-color: #cb0000 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .lastfm-color:focus,
@@ -493,7 +462,7 @@ body {
   background-color: transparent;
   border-color: #f96854 !important;
   transition: .3s;
-  box-shadow: 0 .27rem .2rem rgba(0, 0, 0, .4)
+  box-shadow: 0.3px 0.1rem 0 rgba(0,0,0,.25);
 }
 
 .patreon-color:focus,

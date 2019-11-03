@@ -1,4 +1,4 @@
-console.log("Hello my friend.");
+console.log("Hello friend.");
 var date = new Date;
 var charg_avant = date.getTime();
 

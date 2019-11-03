@@ -133,11 +133,10 @@ require('function.php');
           </div>
           <div class="modal-body">
             <ul>
-              <li>Developped by <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a> - Version <span class="color-gate-text">1.0.1</span></li>
+              <li>Developped by <a class="color-gate-text" href="https://thomasbnt.fr/" target="_blank">Thomas Bnt</a> - Version <span class="color-gate-text">1.1.0</span></li>
               <li>Background recovered randomly from <a class="color-gate-text" href="https://unsplash.com/collections/520359/paysages-background" target="_blank">Unsplash</a></li>
               <li>The project is <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate" target="_blank" rel="noopener">open source</a>, and <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate#how-to-use-the-gate" target="_blank" rel="noopener">help is at your fingertips</a>.</li>
               <li>See all quotes <a class="color-gate-text" href="quotes.php">here</a>.</li>
-              <li>The CSS (stylesheet) is under <a href="https://thomasbnt.fr/cgu/" class="color-gate-text" target="_blank" rel="noopener">TOS</a>
               <li>Thanks to <a class="color-gate-text" href="https://github.com/thomasbnt/The-Gate/graphs/contributors">all contributors</a> !</li>
             </ul>
           </div>
@@ -155,7 +154,6 @@ require('function.php');
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
     <script defer src="assets/js/popper.min.js"></script>
     <script defer src="assets/js/bootstrap.min.js"></script>
-    <script defer src="assets/js/cache-polyfill.js"></script>
     <!----- For Stats, delete me! ----->
     <!-- Matomo -->
     <script type="text/javascript">
@@ -182,17 +180,6 @@ require('function.php');
     gtag('config', 'UA-90310174-7');
     </script>
     <!----- End for Stats, delete me! ----->
-    <script>
-    if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('sw.js').then(function(registration) {
-        console.log('Service worker registration succeeded:', registration);
-    }, function(error) {
-        console.log('Service worker registration failed:', error);
-    });
-    } else {
-    console.log('Service workers are not supported.');
-    }
-    </script>
     <!-- Init -->
     <script type="text/javascript" src="assets/js/init.js"></script>
     <!-- L'heure tourne .. -->

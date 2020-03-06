@@ -1,0 +1,2 @@
+- name: Auto message for PR's and Issues
+  uses: thomasbnt/hello-to-news-contributions@v1.0
